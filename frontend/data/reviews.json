@@ -1,0 +1,114 @@
+[
+  {
+    "id": "rvw-1001",
+    "author": "Maya R.",
+    "rating": 5,
+    "date": "2026-09-18",
+    "verified": true,
+    "sourceLanguage": "en",
+    "translations": {
+      "en": { "title": "The layer I keep reaching for", "body": "Soft without feeling delicate, and warm without becoming heavy. I wore it through two flights and a rainy weekend in Copenhagen and it still looked polished." },
+      "fr": { "title": "La pièce que je porte sans cesse", "body": "Doux sans être fragile, et chaud sans être lourd. Je l’ai porté pendant deux vols et un week-end pluvieux à Copenhague, et il est resté impeccable." },
+      "de": { "title": "Das Teil, zu dem ich immer wieder greife", "body": "Weich, ohne empfindlich zu wirken, und warm, ohne schwer zu sein. Ich trug es auf zwei Flügen und an einem regnerischen Wochenende in Kopenhagen – es sah immer noch elegant aus." },
+      "es": { "title": "La prenda que no dejo de usar", "body": "Suave sin parecer delicada y cálida sin resultar pesada. La llevé en dos vuelos y durante un fin de semana lluvioso en Copenhague, y seguía viéndose impecable." }
+    }
+  },
+  {
+    "id": "rvw-1002",
+    "author": "Clara M.",
+    "rating": 4,
+    "date": "2026-09-11",
+    "verified": true,
+    "sourceLanguage": "fr",
+    "translations": {
+      "en": { "title": "Beautiful cut, generous fit", "body": "The green is even richer in person and the wool feels lovely. The fit is quite generous, so I would choose the smaller size if you are between sizes." },
+      "fr": { "title": "Belle coupe, taille généreuse", "body": "Le vert est encore plus riche en vrai et la laine est très agréable. La coupe est assez ample, je conseille donc la taille en dessous si vous hésitez entre deux tailles." },
+      "de": { "title": "Schöner Schnitt, großzügige Passform", "body": "Das Grün wirkt in echt noch satter und die Wolle fühlt sich wunderbar an. Die Passform ist recht großzügig; zwischen zwei Größen würde ich die kleinere wählen." },
+      "es": { "title": "Corte precioso, talla amplia", "body": "El verde es aún más intenso en persona y la lana tiene un tacto estupendo. El corte es bastante amplio, así que elegiría la talla menor si dudas entre dos." }
+    }
+  },
+  {
+    "id": "rvw-1003",
+    "author": "Jonas K.",
+    "rating": 5,
+    "date": "2026-09-04",
+    "verified": true,
+    "sourceLanguage": "de",
+    "translations": {
+      "en": { "title": "Ideal for travelling", "body": "It folds easily into hand luggage and quickly returns to shape. The pockets are deep enough for a phone and passport, which is rare in a jacket this clean-looking." },
+      "fr": { "title": "Idéal pour voyager", "body": "Il se plie facilement dans un bagage cabine et reprend vite sa forme. Les poches sont assez profondes pour un téléphone et un passeport, ce qui est rare pour une veste aussi épurée." },
+      "de": { "title": "Ideal für unterwegs", "body": "Lässt sich leicht im Handgepäck verstauen und kommt schnell wieder in Form. Die Taschen sind tief genug für Handy und Reisepass – selten bei einer so klar geschnittenen Jacke." },
+      "es": { "title": "Ideal para viajar", "body": "Se guarda fácilmente en el equipaje de mano y recupera pronto la forma. Los bolsillos tienen espacio para el móvil y el pasaporte, algo poco habitual en una chaqueta de líneas tan limpias." }
+    }
+  },
+  {
+    "id": "rvw-1004",
+    "author": "Lucía V.",
+    "rating": 3,
+    "date": "2026-08-29",
+    "verified": true,
+    "sourceLanguage": "es",
+    "translations": {
+      "en": { "title": "Lovely, but the sleeves run long", "body": "The fabric and colour are beautiful, but the sleeves cover most of my hands. I kept it because the relaxed look works when they are rolled once." },
+      "fr": { "title": "Très beau, mais les manches sont longues", "body": "Le tissu et la couleur sont superbes, mais les manches couvrent presque entièrement mes mains. Je l’ai gardé car le style décontracté fonctionne bien avec un revers." },
+      "de": { "title": "Schön, aber die Ärmel sind lang", "body": "Stoff und Farbe sind wunderschön, aber die Ärmel bedecken fast meine ganzen Hände. Ich habe die Jacke behalten, weil der entspannte Look mit einmal umgeschlagenen Ärmeln gut funktioniert." },
+      "es": { "title": "Preciosa, pero las mangas son largas", "body": "El tejido y el color son preciosos, pero las mangas me cubren casi toda la mano. Me la quedé porque el estilo relajado funciona bien al darles una vuelta." }
+    }
+  },
+  {
+    "id": "rvw-1005",
+    "author": "Amelia T.",
+    "rating": 5,
+    "date": "2026-08-21",
+    "verified": true,
+    "sourceLanguage": "en",
+    "translations": {
+      "en": { "title": "Quietly luxurious", "body": "The finishing is excellent and there are no scratchy seams. It dresses up denim immediately, but is comfortable enough to wear all day." },
+      "fr": { "title": "Un luxe tout en discrétion", "body": "Les finitions sont excellentes et aucune couture ne gratte. Il habille immédiatement un jean, tout en restant assez confortable pour être porté toute la journée." },
+      "de": { "title": "Unaufdringlich luxuriös", "body": "Die Verarbeitung ist hervorragend und keine Naht kratzt. Die Jacke wertet Jeans sofort auf und ist zugleich bequem genug für den ganzen Tag." },
+      "es": { "title": "Lujo discreto", "body": "Los acabados son excelentes y ninguna costura molesta. Eleva unos vaqueros al instante, pero es lo bastante cómoda para llevarla todo el día." }
+    }
+  },
+  {
+    "id": "rvw-1006",
+    "author": "Nina B.",
+    "rating": 2,
+    "date": "2026-08-15",
+    "verified": true,
+    "sourceLanguage": "de",
+    "translations": {
+      "en": { "title": "Not quite right for me", "body": "The quality is clear, but the shape felt too oversized on my frame even in the smallest size. The return process was straightforward." },
+      "fr": { "title": "Pas tout à fait adapté pour moi", "body": "La qualité est évidente, mais la coupe était trop ample sur moi, même dans la plus petite taille. Le retour s’est déroulé sans difficulté." },
+      "de": { "title": "Für mich leider nicht passend", "body": "Die Qualität ist deutlich erkennbar, aber selbst in der kleinsten Größe wirkte der Schnitt an mir zu weit. Die Rückgabe verlief unkompliziert." },
+      "es": { "title": "No era para mí", "body": "La calidad es evidente, pero incluso la talla más pequeña me quedaba demasiado amplia. El proceso de devolución fue sencillo." }
+    }
+  },
+  {
+    "id": "rvw-1007",
+    "author": "Sophie L.",
+    "rating": 5,
+    "date": "2026-08-08",
+    "verified": true,
+    "sourceLanguage": "fr",
+    "translations": {
+      "en": { "title": "A wardrobe essential", "body": "After a month, it has kept its shape beautifully. I especially like the weight and the deep forest colour, which works with almost everything I own." },
+      "fr": { "title": "Un essentiel du vestiaire", "body": "Après un mois, il a parfaitement gardé sa forme. J’aime particulièrement son poids et sa couleur vert forêt, qui s’accorde avec presque toute ma garde-robe." },
+      "de": { "title": "Ein echtes Garderoben-Essential", "body": "Nach einem Monat hat die Jacke ihre Form wunderbar behalten. Besonders gefallen mir das Gewicht und das tiefe Waldgrün, das zu fast allem in meinem Schrank passt." },
+      "es": { "title": "Un básico de armario", "body": "Después de un mes conserva la forma estupendamente. Me gustan especialmente el peso y el verde bosque intenso, que combina con casi todo mi armario." }
+    }
+  },
+  {
+    "id": "rvw-1008",
+    "author": "Elena G.",
+    "rating": 4,
+    "date": "2026-07-31",
+    "verified": true,
+    "sourceLanguage": "es",
+    "translations": {
+      "en": { "title": "Versatile and well made", "body": "It works as a jacket in mild weather and as a layer under a coat when it gets colder. I would have liked one inside pocket, but otherwise it is excellent." },
+      "fr": { "title": "Polyvalent et bien confectionné", "body": "Il se porte comme une veste par temps doux et sous un manteau lorsqu’il fait plus froid. Une poche intérieure aurait été appréciable, mais sinon il est excellent." },
+      "de": { "title": "Vielseitig und gut verarbeitet", "body": "Bei mildem Wetter funktioniert sie als Jacke und bei Kälte als Schicht unter einem Mantel. Eine Innentasche hätte mir gefallen, ansonsten ist sie ausgezeichnet." },
+      "es": { "title": "Versátil y bien hecha", "body": "Funciona como chaqueta cuando hace buen tiempo y como capa bajo un abrigo cuando refresca. Me habría gustado un bolsillo interior, pero por lo demás es excelente." }
+    }
+  }
+]

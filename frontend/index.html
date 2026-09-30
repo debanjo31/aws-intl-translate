@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A multilingual customer-review experience for an international fashion storefront."
+    />
+    <title>Atelier — Customer reviews</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Atelier home">ATELIER</a>
+      <nav class="language-switcher" aria-label="Choose display language">
+        <span class="language-switcher__label" data-i18n="languageLabel">View as</span>
+        <div class="language-switcher__buttons" role="group" aria-label="Languages">
+          <button class="language-button is-active" type="button" data-language="en" aria-pressed="true">EN</button>
+          <button class="language-button" type="button" data-language="fr" aria-pressed="false">FR</button>
+          <button class="language-button" type="button" data-language="de" aria-pressed="false">DE</button>
+          <button class="language-button" type="button" data-language="es" aria-pressed="false">ES</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="reviews-section" id="reviews" aria-labelledby="reviews-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="community">From our community</p>
+            <h2 id="reviews-heading" data-i18n="reviewsHeading">Customer reviews</h2>
+          </div>
+          <p class="section-heading__intro" data-i18n="reviewsIntro">
+            Honest notes from customers around the world, shown in your selected language.
+          </p>
+        </div>
+
+        <div class="reviews-layout">
+          <aside class="rating-summary" aria-labelledby="rating-summary-heading">
+            <h3 id="rating-summary-heading" class="sr-only" data-i18n="ratingSummary">Rating summary</h3>
+            <div class="rating-summary__score">
+              <strong id="average-rating-large">4.4</strong>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span><span id="review-total-large">8</span> <span data-i18n="reviewsLabel">reviews</span></span>
+            </div>
+            <div id="rating-breakdown" class="rating-breakdown"></div>
+          </aside>
+
+          <div class="reviews-feed">
+            <div class="review-toolbar">
+              <div>
+                <span class="filter-label" data-i18n="filterLabel">Filter by rating</span>
+                <div class="rating-filters" role="group" aria-label="Filter reviews by rating">
+                  <button type="button" class="filter-button is-active" data-rating="all" aria-pressed="true" data-i18n="allRatings">All</button>
+                  <button type="button" class="filter-button" data-rating="5" aria-pressed="false">5 ★</button>
+                  <button type="button" class="filter-button" data-rating="4" aria-pressed="false">4 ★</button>
+                  <button type="button" class="filter-button" data-rating="3" aria-pressed="false">3 ★</button>
+                  <button type="button" class="filter-button" data-rating="2" aria-pressed="false">2 ★</button>
+                  <button type="button" class="filter-button" data-rating="1" aria-pressed="false">1 ★</button>
+                </div>
+              </div>
+              <p class="result-count" aria-live="polite"><span id="visible-count">0</span> <span data-i18n="shown">shown</span></p>
+            </div>
+
+            <div id="reviews-list" class="reviews-list" aria-live="polite"></div>
+            <p id="empty-state" class="empty-state" hidden data-i18n="emptyState">No reviews match this rating yet.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="review-form-section" aria-labelledby="form-heading">
+        <div class="review-form-intro">
+          <p class="eyebrow" data-i18n="yourTurn">Your turn</p>
+          <h2 id="form-heading" data-i18n="formHeading">Share your experience</h2>
+          <p data-i18n="formIntro">Your review helps shoppers everywhere make a more confident choice.</p>
+          <p class="privacy-note" data-i18n="privacyNote">Demo mode: your review stays in this browser and no email address is collected.</p>
+        </div>
+
+        <form id="review-form" class="review-form">
+          <div class="form-grid">
+            <label>
+              <span data-i18n="nameLabel">Display name</span>
+              <input id="reviewer-name" name="name" type="text" maxlength="40" autocomplete="name" required />
+            </label>
+            <label>
+              <span data-i18n="ratingLabel">Rating</span>
+              <select id="review-rating" name="rating" required>
+                <option value="" data-i18n="ratingPlaceholder">Choose a rating</option>
+                <option value="5" data-i18n="rating5">5 — Excellent</option>
+                <option value="4" data-i18n="rating4">4 — Good</option>
+                <option value="3" data-i18n="rating3">3 — Average</option>
+                <option value="2" data-i18n="rating2">2 — Fair</option>
+                <option value="1" data-i18n="rating1">1 — Poor</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            <span data-i18n="titleLabel">Review title</span>
+            <input id="review-title" name="title" type="text" maxlength="80" required />
+          </label>
+          <label>
+            <span data-i18n="reviewLabel">Your review</span>
+            <textarea id="review-body" name="body" rows="5" minlength="10" maxlength="1000" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="primary-button" type="submit" data-i18n="submitReview">Publish review</button>
+            <p id="form-status" class="form-status" role="status"></p>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>ATELIER <span>© 2026</span></p>
+      <p data-i18n="demoFooter">International review experience · Demo storefront</p>
+    </footer>
+
+    <template id="review-template">
+      <article class="review-card">
+        <header class="review-card__header">
+          <div>
+            <div class="review-card__stars" aria-hidden="true"></div>
+            <h3 class="review-card__title"></h3>
+          </div>
+          <time class="review-card__date"></time>
+        </header>
+        <p class="review-card__body"></p>
+        <footer class="review-card__footer">
+          <span class="review-card__author"></span>
+          <span class="verified-badge" data-i18n="verified">Verified purchase</span>
+          <span class="original-language" hidden></span>
+        </footer>
+      </article>
+    </template>
+  </body>
+</html>

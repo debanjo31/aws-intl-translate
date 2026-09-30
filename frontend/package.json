@@ -1,0 +1,13 @@
+{
+  "name": "aws-intl-translate-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check app.js && node scripts/validate-data.mjs",
+    "start": "npx --yes serve ."
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
