@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "check": "node --check app.js && node scripts/validate-data.mjs",
-    "start": "node init && npx --yes serve ."
+    "start": "npx --yes serve ."
   },
   "engines": {
     "node": ">=20"
